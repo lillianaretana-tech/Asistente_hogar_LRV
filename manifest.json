@@ -1,0 +1,28 @@
+{
+  "name": "Lilly — Asistente del Hogar",
+  "short_name": "Lilly",
+  "id": "lilly-asistente-hogar",
+  "description": "Tu asistente inteligente para el hogar costarricense. Recetas, limpieza, tareas escolares, inglés y presupuesto familiar.",
+  "start_url": "/Asistente_hogar_LRV/",
+  "scope": "/Asistente_hogar_LRV/",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#0f1117",
+  "theme_color": "#d4603a",
+  "lang": "es",
+  "categories": ["education", "lifestyle", "utilities"],
+  "icons": [
+    {
+      "src": "icons/icon-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "icons/icon-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
