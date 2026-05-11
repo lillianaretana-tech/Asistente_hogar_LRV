@@ -1,0 +1,8 @@
+[{
+      "relation": ["delegate_permission/common.handle_all_urls"],
+      "target": {
+        "namespace": "android_app",
+        "package_name": "com.lillyasistente.hogar",
+        "sha256_cert_fingerprints": ["A1:B4:12:7A:8B:E8:45:F5:8F:5F:55:DC:E2:90:2A:85:83:75:C7:83:C5:B8:A1:85:36:1A:1D:BC:4C:D5:7D:ED"]
+      }
+    }]
