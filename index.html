@@ -4,6 +4,7 @@
 <meta charset="UTF-8"/>
 <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover"/>
 <title>Lilly — Asistente del Hogar</title>
+  <link rel="manifest" href="/Asistente_hogar_LRV/manifest.json"/>
 <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;600;700;800;900&family=Nunito+Sans:wght@400;600&display=swap" rel="stylesheet"/>
 <style>
 :root {
@@ -1130,5 +1131,6 @@ function hideTyping(){ const el=document.getElementById('typing-row'); if(el)el.
 function handleKey(e){ if(e.key==='Enter'&&!e.shiftKey){e.preventDefault();sendMsg();} }
 function autoResize(el){ el.style.height='auto'; el.style.height=Math.min(el.scrollHeight,100)+'px'; }
 </script>
+  <script>if('serviceWorker' in navigator){navigator.serviceWorker.register('/Asistente_hogar_LRV/sw.js');}</script>
 </body>
 </html>
